@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.S1{
+    background-image: url(../assets/images/banner-bk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    padding: 2% 6%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 30%;
+}
+h1{
+    font-size: 55px;
+    line-height: 0.9;
+}
+.text-S1{
+    padding-right: 40%;
+    padding: 3% 0px;
+}
+.text-S1 p{
+    color: #ccc;
+}
+.S1 button{
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #00FFAD;
+}
+
+.S2{
+    padding: 6%;
+}
+.S2 h2{
+    text-align: center;
+    font-size: 35px;
+}
+.protects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    text-align: center;
+}
+.features {
+    width: 100%;
+}
+
+.feature {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 9%;
+    gap: 50px;
+}
+
+.feature-top {
+    background-color: white;
+    min-height: 340px;
+}
+
+.feature-bottom {
+    background-color: #00e9a8;
+    min-height: 300px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.feature-bottom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background-color: white;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 0,
+        0 100%
+    );
+}
+
+.feature-content {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-content h2 {
+    font-size: 35px;
+    color: #202b3c;
+    margin-bottom: 15px;
+}
+
+.feature-content p {
+    max-width: 430px;
+    margin-bottom: 28px;
+}
+
+.feature-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+.feature-button {
+    background-color: #172440;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.S5{
+    padding: 6%;
+}
+.S5 h2{
+    font-size: 40px;
+    text-align: center;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.op{
+    padding: 1% 5%;
+}
+.title{
+    padding: 20px;
+}
+.title h4{
+    font-size: 25px;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 20px;
+}
+.number{
+    font-size: 70px;
+    font-weight: 900;
+}
+.text-op{
+    padding: 20px;
+}
+.text-op li{
+    list-style: none;
+    line-height: 1.7;
+}
+.btn-op{
+    padding: 20px;
+}
+.btn-op button{
+    padding: 8% 20%;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 900;
+}
+.premium{
+    background-color: #192440;
+    color: white;
+}
+.premium button{
+    background-color: #00FFAD;
+    border: none;
+}
+.S6{
+    background-color: #ECEEEF;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.S7{
+    display: flex;
+    justify-content: space-around;
+    padding: 6%;
+    background-image: url(../assets/images/contact-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.S7 h2{
+    font-size: 35px;
+}
+.text-S7 p, .text-S7 li{
+    color: #cccccc;
+}
+.text-S7 ul{
+    list-style: none;
+}
+form{
+    color: #00FFAD;
+}
+input[type=text], input[type=email]{
+    border: 1px solid #00FFAD;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+form textarea{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #00FFAD;
+    border-radius: 5px;
+    width: 100%;
+    height: 70px;
+    color: white;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #00FFAD;
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+}
+.NM-E{
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    background-color: #192440;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+footer ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 30px;
+}
+
